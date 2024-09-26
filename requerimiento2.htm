@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio2 - Condiciones</title>
+    <link rel="stylesheet" href="/assets/css/estilos2.css">
+</head>
+<body>
+    <div id="aviso">
+        <h2>Puedes llevar hasta 10 stickers en total</h2> 
+    </div>  
+    <main> 
+        <div class="sticker">
+            <img src="/assets/imgs/esperando.jpg" alt=""> 
+            <div>
+                <input id="sticker1" type="number" value="0" min="0" max="10">
+            </div>
+        </div>  
+        <div class="sticker">
+            <img src="/assets/imgs/navidad.png" alt=""> 
+            <div>
+                <input id="sticker2" type="number" value="0" min="0" max="10">
+            </div>
+        </div>  
+        <div class="sticker">
+            <img src="/assets/imgs/no_me_importa.jpg" alt=""> 
+            <div>
+                <input id="sticker3" type="number" value="0" min="0" max="10">
+            </div>
+        </div>  
+    </main>
+    <div>
+        <p id="message"></p>
+    </div>
+    <div>
+        <button onclick="stickerCount()">Verificar</button>
+    </div>
+    <div>
+        <button class="back"><a href="./index.htm">Volver a la página principal</a></button>
+    </div>
+    <script src="/assets/js/stickers.js"></script>
+</body>
+</html>

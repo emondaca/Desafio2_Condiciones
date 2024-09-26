@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-items: center;
+    justify-content: flex-start;
+    text-align: center;   
+}
+
+main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-evenly;
+    justify-items: flex-start;
+    margin-top: 60px;
+}
+
+.sticker {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-items: center;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+input {
+    width: 150px;
+}
+img {
+    margin-bottom: 30px;
+}
+#message {
+    font-size: large;
+    font-weight: bold;
+   }
+.back {
+    height: auto;
+    width: auto;
+    margin-top: 40px;
+}
